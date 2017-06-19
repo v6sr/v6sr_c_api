@@ -5,3 +5,6 @@ project( SegmentRouting )
 include_directories( ${PROJECT_SOURCE_DIR}/sr_api/include )
 
 add_subdirectory(  ${PROJECT_SOURCE_DIR}/sr_api )
+
+# Build the ping server utility
+add_subdirectory(  ${PROJECT_SOURCE_DIR}/ping )

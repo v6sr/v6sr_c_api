@@ -1,0 +1,7 @@
+# Specify SIDs (addresses) below, in reverse order (ie last segment first).
+# Note that the last segment MUST be the destination address.
+
+2001:db8:0:1::1
+2001:db8:0:2::1
+2001:db8:0:5::1
+2001:db8:0:7::1
